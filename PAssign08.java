@@ -39,7 +39,7 @@ public class PAssign08 extends Application{
 	public void start(Stage primaryStage) {
 		// Begin with the remote
 		FlowPane fpRemote = new FlowPane();
-		RemotePadPane remotePadPane = new RemotePadPane();
+		KeyPadCustomPane remotePadPane = new KeyPadCustomPane();
 		GridPane gpRemote = new GridPane();
 		
 		fpRemote.setAlignment(Pos.CENTER);
@@ -121,9 +121,9 @@ public class PAssign08 extends Application{
  * Description: Class specifically for the keypad on a remote control
  */
 
-class RemotePadPane extends KeyPadPane {
+class KeyPadCustomPane extends KeyPadPane {
 	// Default constructor
-	public RemotePadPane() {
+	public KeyPadCustomPane() {
 		super(true);
 	}
 	
